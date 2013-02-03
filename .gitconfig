@@ -8,16 +8,22 @@
    grep = auto
 [push]
    default = tracking
+[pull]
+   rebase = true
+[merge]
+   ff = false
 [core]
    excludesfile = ~/.gitignore
    editor = vim
+   pager = less -r
+   autocrlf = input
 [alias]
    st = status -sb
    co = checkout
    ci = commit
    p = push -u
    b = branch
-   up = fetch --verbose --prune
+   up = fetch --verbose --prune origin
    d = diff
    dc = diff --cached
    ds = diff --staged
