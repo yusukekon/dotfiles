@@ -26,7 +26,6 @@
    b = branch
    up = fetch --verbose --prune origin
    d = diff
-   dc = diff --cached
    ds = diff --staged
    pick = cherry-pick
    changed = whatchanged
