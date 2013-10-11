@@ -26,8 +26,8 @@
    b = branch
    up = fetch --verbose --prune origin
    d = diff
-   dc = diff --cached
    ds = diff --staged
+   dca = diff --cached
    pick = cherry-pick
    changed = whatchanged
    l = log --pretty=format:\"%ci %C(yellow)%h%Creset [%cn] %Cgreen%s %C(cyan)%d%Creset\" -10
