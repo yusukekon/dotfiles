@@ -25,9 +25,9 @@
    p = push -u
    b = branch
    up = fetch --verbose --prune origin
-   d = diff
-   dc = diff --cached
-   ds = diff --staged
+   d = diff --find-renames
+   dc = diff --cached --find-renames
+   ds = diff --staged --find-renames
    pick = cherry-pick
    changed = whatchanged
    l = log --pretty=format:\"%ci %C(yellow)%h%Creset [%cn] %Cgreen%s %C(cyan)%d%Creset\" -10
